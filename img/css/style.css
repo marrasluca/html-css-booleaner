@@ -2,7 +2,12 @@
 header {
   background: url("../pattern.png") repeat;
   background-color: #4EA0FF;
-  width:auto;
+  background-size: contain;
+}
+header img {
+ width: 200px;
+ height: 150px;
+
 }
 span {
   background-color: yellow;
@@ -11,10 +16,31 @@ span {
 thead {
   background-color: #4EA0FF;
 }
+table{
+  border-collapse: collapse;
+}
 table {
   margin: 0%;
   height: min-content;
   }
   #special {
     background-color: #B1E5F2;
+  }
+
+  footer .img-box {
+    width: 150px;
+    height: 150px;
+    margin: 10px 0;
+  }
+
+  #footer-img-1 {
+    background-image: url(../monitor.jpg);
+  }
+
+  #footer-img-2 {
+    background-image: url(../graph.jpg);
+  }
+
+  footer p {
+    color: aliceblue;
   }
