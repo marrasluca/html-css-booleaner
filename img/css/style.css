@@ -9,10 +9,16 @@ header img {
  height: 150px;
 
 }
-span {
-  background-color: yellow;
-  
+.author-life {
+  color: lightgray;
 }
+.author-life span {
+   font-size: 12px;
+}
+
+
+  
+
 thead th{
   background-color: #4EA0FF;
   color: aliceblue;
@@ -27,6 +33,10 @@ table {
   }
   #special {
     background-color: #B1E5F2;
+  }
+
+  #p3 {
+    color: gray;
   }
 
   footer .img-box {
