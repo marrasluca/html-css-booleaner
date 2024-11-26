@@ -65,3 +65,8 @@ table {
   footer p {
     color: aliceblue;
   }
+
+  .container-80 {
+    width: 100%;
+    margin: 0%;
+  }
