@@ -13,15 +13,17 @@ span {
   background-color: yellow;
   
 }
-thead {
+thead th{
   background-color: #4EA0FF;
+  color: aliceblue;
 }
-table{
-  border-collapse: collapse;
+table th{
+  text-align: left;
 }
 table {
   margin: 0%;
   height: min-content;
+  border-collapse: collapse;
   }
   #special {
     background-color: #B1E5F2;
